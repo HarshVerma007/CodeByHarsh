@@ -16,7 +16,7 @@ export default function Navbar({ clientMode, setClientMode }: NavbarProps) {
     <nav className="fixed top-0 left-0 w-full z-50 p-6 flex justify-between items-center bg-black/5backdrop-blur-md border-b border-white/5">
       <div className="flex items-center gap-2">
         <div className="font-display font-extrabold text-xl tracking-widest uppercase text-neon-red text-glow">
-          CORE_X
+          Code X Harsh
         </div>
       </div>
 

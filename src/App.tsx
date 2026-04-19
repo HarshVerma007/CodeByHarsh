@@ -43,7 +43,7 @@ export default function App() {
                 transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
                 className="w-16 h-16 border-2 border-neon-red flex items-center justify-center font-display font-bold text-4xl mb-4 skew-x-[-12deg]"
               >
-                N
+                H
               </motion.div>
               <div className="text-[10px] text-neon-red font-mono uppercase tracking-[0.5em] animate-pulse">
                 Initializing System...
@@ -94,7 +94,7 @@ export default function App() {
             animate={{ scale: [1, 1.2, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            N
+            H
           </motion.div>
         </a>
       </div>
