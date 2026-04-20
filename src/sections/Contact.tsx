@@ -29,15 +29,15 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-[10px] text-white/30 uppercase tracking-widest font-bold mb-1">Send a Message</div>
-                  <div className="text-xl font-bold">hello@neon.labs</div>
+                  <div className="text-xl font-bold">freelanceharsh007@gmail.com</div>
                 </div>
               </div>
               
               <div className="flex gap-4">
-                 <a href="#" className="flex-1 p-4 glass border-white/5 flex items-center justify-center gap-3 hover:border-white/30 transition-all clickable">
+                 <a href="https://github.com/HarshVerma007" className="flex-1 p-4 glass border-white/5 flex items-center justify-center gap-3 hover:border-white/30 transition-all clickable">
                    <Github size={20} /> <span className="uppercase text-xs font-bold tracking-widest">Github</span>
                  </a>
-                 <a href="#" className="flex-1 p-4 glass border-white/5 flex items-center justify-center gap-3 hover:border-white/30 transition-all clickable">
+                 <a href="https://www.linkedin.com/in/harsh-verma0502/" className="flex-1 p-4 glass border-white/5 flex items-center justify-center gap-3 hover:border-white/30 transition-all clickable">
                    <Linkedin size={20} /> <span className="uppercase text-xs font-bold tracking-widest">LinkedIn</span>
                  </a>
               </div>
@@ -51,7 +51,7 @@ export default function Contact() {
                       <label className="text-[10px] uppercase tracking-widest font-bold text-white/50">Full Name</label>
                       <input 
                         type="text" 
-                        placeholder="John Doe" 
+                        placeholder="YOUR NAME" 
                         className="w-full bg-white/5 border border-white/10 p-4 focus:border-neon-red outline-none transition-all placeholder:text-white/10" 
                       />
                    </div>
@@ -59,7 +59,7 @@ export default function Contact() {
                       <label className="text-[10px] uppercase tracking-widest font-bold text-white/50">Email Address</label>
                       <input 
                         type="email" 
-                        placeholder="john@example.com" 
+                        placeholder="Your Email Address" 
                         className="w-full bg-white/5 border border-white/10 p-4 focus:border-neon-red outline-none transition-all placeholder:text-white/10" 
                       />
                    </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                    <label className="text-[10px] uppercase tracking-widest font-bold text-white/50">Company / Project Name</label>
                    <input 
                      type="text" 
-                     placeholder="Neon Labs Inc." 
+                     placeholder="Company / Project Name" 
                      className="w-full bg-white/5 border border-white/10 p-4 focus:border-neon-red outline-none transition-all placeholder:text-white/10" 
                    />
                 </div>

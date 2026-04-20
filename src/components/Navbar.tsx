@@ -44,13 +44,13 @@ export default function Navbar({ clientMode, setClientMode }: NavbarProps) {
           </button>
 
           <div className="flex items-center gap-3">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-white/60 hover:text-white transition-colors clickable">
+            <a href="https://github.com/HarshVerma007" target="_blank" rel="noreferrer" className="text-white/60 hover:text-white transition-colors clickable">
               <Github size={18} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-white/60 hover:text-white transition-colors clickable">
+            <a href="https://www.linkedin.com/in/harsh-verma0502/" target="_blank" rel="noreferrer" className="text-white/60 hover:text-white transition-colors clickable">
               <Linkedin size={18} />
             </a>
-            <a href="mailto:hello@neon.labs" className="text-white/60 hover:text-white transition-colors clickable">
+            <a href="mailto:freelanceharsh007@gmail.com" className="text-white/60 hover:text-white transition-colors clickable">
               <Mail size={18} />
             </a>
           </div>
